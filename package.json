@@ -1,0 +1,37 @@
+{
+  "name": "automata",
+  "version": "0.0.1",
+  "description": "A javascript library of automata and transducer utilities for language processing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/informatietuin/automata.git"
+  },
+  "keywords": [
+    "Levenshtein",
+    "Dawg",
+    "MA",
+    "FSA",
+    "graph",
+    "tree",
+    "automaton",
+    "automata",
+    "transducer"
+  ],
+  "author": "Remko Boschker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/informatietuin/automata/issues"
+  },
+  "homepage": "https://github.com/informatietuin/automata#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0"
+  }
+}
