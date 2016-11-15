@@ -1,8 +1,6 @@
 const dawg = require('../src/dawg').dawg();
 const expect = require('chai').expect;
 
-console.log(dawg)
-
 describe('dawg', () => {
   function getBaseGraph() {
     return [

@@ -71,7 +71,7 @@ exports.dawg = function dawg() {
 
   function prefixSuffixSplit(prev, curr) {
     let i = 0;
-    for (i; prev[i] === curr[i]; i += 1) {}
+    // for (i; prev[i] === curr[i]; i += 1) {}
     return [curr.slice(0, i), curr.slice(i)];
   }
 
@@ -87,7 +87,7 @@ exports.dawg = function dawg() {
     graph.find(el => isSameState(node, el));
   }
 
-  function addNodeToRegister(rgraph, node) {
+  function addNodeToRegister(graph, node) {
     graph.push(node);
   }
 
