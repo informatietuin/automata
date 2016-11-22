@@ -1,4 +1,4 @@
-const { graph } = require('../src/graph');
+const graph = require('../src/graph');
 const expect = require('chai').expect;
 
 // insertArc,
@@ -29,7 +29,7 @@ describe('graph', () => {
     it('should return the number of children of the parent / siblings of the child', () => {
       const g = graph();
       g.insertNode();
-      expect(graph().insertArc(0, 'a', 1)).to.equal();
-    })
-  })
+      expect(g.insertArc(0, 'a', 1)).to.equal(1);
+    });
+  });
 });

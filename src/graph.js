@@ -1,13 +1,12 @@
-exports.graph = function graph() {
+module.exports = function graph() {
   const finalNodes = [];
   const nodes = [];
 
   function insertArc(parent, label, child) {
     const arcs = nodes[parent];
-    if (arcs.findIndex() === -1) {
+    if (arcs.findIndex(label) === -1) {
       arcs.push([label, child]);
     }
-
   }
 
   function removeArc() {
@@ -86,5 +85,5 @@ exports.graph = function graph() {
     acceptIntersection,
     intersection,
     union,
-  })
-}
+  });
+};
